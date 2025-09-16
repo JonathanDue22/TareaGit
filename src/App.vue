@@ -3,6 +3,7 @@
     <HeaderComponent />
     <HeroSection />
     <AwardsSection />
+    <ContenidoComponent></ContenidoComponent>    
     <DescriptionSection />
     <FooterComponent />
   </div>
@@ -14,6 +15,7 @@ import HeroSection from './components/HeroSection.vue'
 import AwardsSection from './components/AwardsSection.vue'
 import DescriptionSection from './components/DescriptionSection.vue'
 import FooterComponent from './components/FooterComponent.vue'
+import ContenidoComponent from './components/ContenidoComponent.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     HeroSection,
     AwardsSection,
     DescriptionSection,
-    FooterComponent
+    FooterComponent,
+    ContenidoComponent
   }
 }
 </script>
